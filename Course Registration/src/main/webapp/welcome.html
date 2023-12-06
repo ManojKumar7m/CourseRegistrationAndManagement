@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Course Registration Portal</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f9fa;
+            color: #333;
+        }
+
+        h1 {
+            text-align: center;
+            margin-top: 50px;
+            color: #007bff;
+        }
+
+        form {
+            display: inline-block;
+            margin: 20px;
+        }
+
+        .submit1,
+        .submit2 {
+            background-color: #28a745;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .submit2 {
+            margin-left: 10px;
+        }
+
+        .submit1:hover,
+        .submit2:hover {
+            background-color: #218838;
+        }
+
+        @media screen and (max-width: 600px) {
+            h1 {
+                font-size: 24px;
+            }
+
+            .submit1,
+            .submit2 {
+                display: block;
+                margin: 10px auto;
+                width: 100%;
+            }
+        }
+
+        /* Add animations here */
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Apply fadeIn animation to the h1 element */
+        h1 {
+            animation: fadeIn 1s ease-in-out;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Online Course Registration Portal</h1>
+    <br>
+    <h3 align="center">
+        <form action="Slogin.jsp"><input class="submit1" type="submit" value="Student"></form>
+        <form action="Alogin.jsp"><input class="submit2" type="submit" value="Admin"></form>
+    </h3>
+</body>
+
+</html>
