@@ -1,4 +1,4 @@
-# Course_Registry
+# Course Registration 
 This is a simple web application for course registration implemented using JSP, Servlets, and MySQL.
 Introduction:
 -------------
