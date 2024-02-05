@@ -1,8 +1,8 @@
-# Course Registration 
-This is a simple web application for course registration implemented using JSP, Servlets, and MySQL.
+# Course Registration and Management
+This is a web application for course registration and managed by admin, implemented using JSP, Servlets, and MySQL.
 Introduction:
 -------------
-The Course Registration System is a web application that allows users to perform CRUD operations on course information. It utilizes JavaServer Pages (JSP) for dynamic web content, Servlets for handling server-side requests, and MySQL for data storage.
+The Course Registration  and Management System is a web application that allows users to perform CRUD operations on course information. It utilizes JavaServer Pages (JSP) for dynamic web content, Servlets for handling server-side requests, and MySQL for data storage.
 Features:
 -----------
 Create, Read, Update, and Delete (CRUD) operations for courses.
